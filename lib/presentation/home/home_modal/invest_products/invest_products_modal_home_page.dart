@@ -1,0 +1,162 @@
+import 'package:flutter/material.dart';
+import 'package:obenx_com_br_app/navigator_utils.dart';
+import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/invest_filters_page.dart';
+import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/investment_fund%20_application/application_value_page.dart';
+import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/details_my_portfolio/my_portfolio_details_page.dart';
+import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/fields_label_widget.dart';
+import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/portfolio_card_widget.dart';
+import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/rows_with_fields_widget.dart';
+import 'package:obenx_com_br_app/presentation/home/home_modal/widgets/type_of_investor.dart';
+import 'package:obenx_com_br_app/presentation/home/home_overview/widgets/custom_bottomsheet_widget.dart';
+import 'package:obenx_com_br_app/presentation/themes.dart';
+
+class InvestProductsModalHomePage extends StatelessWidget {
+  InvestProductsModalHomePage({Key? key}) : super(key: key);
+
+  static DateTime now = DateTime.now();
+  static List months = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'];
+  final currentMonth = now.month;
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: primaryColor,
+        title: Image.asset('assets/obenx_logo.png', color: Colors.black, width: 150),
+        centerTitle: true,
+        elevation: 0,
+        leading: GestureDetector(
+          onTap: () => menuBottomSheetWidget(context),
+          child: Icon(Icons.list, color: Colors.black),
+        ),
+      ),
+      backgroundColor: primaryColor,
+      body: Column(
+        children: [
+          Divider(height: 15, thickness: 0.5, color: Colors.black),
+          Padding(
+            padding: const EdgeInsets.fromLTRB(30, 45, 20, 25),
+            child: Align(
+              alignment: Alignment.centerRight,
+              child: Text(now.day.toString() + ' de ' + months[(currentMonth - 1)].toString() + ', ' + now.year.toString())),
+          ),
+          Expanded(
+            child: Container(
+              decoration: BoxDecoration(
+                color: backgroundDarkColor,
+                borderRadius: BorderRadius.only(
+                  topLeft: const Radius.circular(50),
+                  topRight: const Radius.circular(50),
+                ),
+              ),
+              height: MediaQuery.of(context).size.height,
+              width: MediaQuery.of(context).size.width,
+              child: SingleChildScrollView(
+                child: Padding(
+                  padding: const EdgeInsets.all(25),
+                  child: Column(
+                    children: [
+                      Padding(
+                        padding: const EdgeInsets.all(10),
+                        child: Stack(
+                          children: [
+                            Center(
+                              child: Text('Fundos de investimentos', style: TextStyles.titles.copyWith(fontSize: 22)),
+                            ),
+                            GestureDetector(
+                              onTap: () => Navigator.of(context).pop(),
+                              child: Icon(Icons.arrow_back, color: Colors.white),
+                            ),
+                          ],
+                        ),
+                      ),
+                      const SizedBox(height: 20),
+                      Container(
+                        height: 30, 
+                        color: Color(0xFF51515E),
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 10),
+                          child: Row(
+                            children: [
+                              Icon(Icons.search, color: Colors.white54),
+                              const SizedBox(width: 5),
+                              Text('Buscar por produto', style: TextStyle(color: Colors.white38),),
+                              Spacer(),
+                              GestureDetector(
+                                onTap: () => pushToPage(context, InvestFiltersPage()),
+                                child: Icon(Icons.filter_list_rounded, color: Colors.white54),
+                              )
+                            ],
+                          ),
+                        ),
+                      ),
+                      const RowTypesOfInvestorWidget(),
+                      const SizedBox(height: 35),
+                      ListView.builder(
+                        physics: NeverScrollableScrollPhysics(),
+                        shrinkWrap: true,
+                        itemCount: 2,
+                        itemBuilder: (BuildContext context, int index) {
+                          return PortfolioCardWidget(
+                            actionLabel: 'Aplicar',
+                            detailsPage: MyPortfolioDetailsPage(buttonLabel: 'Aplicar', applyPage: ApplicationValuePage()),
+                            cashoutPage: ApplicationValuePage(),
+                            gradientColor: index == 0 ? TextStyles.gradientBlueColor : TextStyles.gradientRedColor,
+                            label: 'Lore Ipsun',
+                            subtitleLabel: 'Renda fixa',
+                            rowsWithFields: [
+                              RowsWithFields(
+                                columnWidget: [
+                                  FieldsLabel(
+                                    label: '12 meses',
+                                    labelValue: '5.68%',
+                                  ),
+                                  FieldsLabel(
+                                    label: 'Aplicação inicial',
+                                    labelValue: '1.000,00',
+                                  ),
+                                  FieldsLabel(
+                                    label: 'Resgate em',
+                                    labelValue: 'D+1',
+                                  ),
+                                ],
+                              ),
+                              RowsWithFields(
+                                columnWidget: [
+                                  FieldsLabel(
+                                    label: 'Mês atual',
+                                    labelValue: '5.68%',
+                                  ),
+                                  FieldsLabel(
+                                    label: 'Ano',
+                                    labelValue: '1.14%',
+                                  ),
+                                  FieldsLabel(
+                                    label: 'Início do fundo',
+                                    labelValue: '00/00/0000',
+                                  ),
+                                ],
+                              ),
+                              RowsWithFields(
+                                columnWidget: [
+                                  FieldsLabel(
+                                    label: 'Patrimônio líquido',
+                                    labelValue: '5.68%',
+                                  ),
+                                ],
+                              ),
+                            ],
+                          );
+                        }
+                      ),
+                    ],
+                  ),
+                ),
+              ),
+            ),
+          )
+        ],
+      ),
+    );
+  }
+}
