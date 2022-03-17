@@ -30,6 +30,6 @@ Nessa camada, os dados são validados e as regras de negócio são executadas.
 ### Infrastructure
 A camada Infrastructure é o extremo oposto da camada Presentation. Essa camada é responsável por receber dados de APIs, banco de dados e sensores do dispositivo.
 
-## APP
+<!-- ## APP
 • Flutter 2.2.3 <br>
-• Dart 2.13.4
+• Dart 2.13.4 -->
