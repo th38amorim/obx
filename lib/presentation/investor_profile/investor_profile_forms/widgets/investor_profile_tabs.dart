@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_options.dart';
-import 'package:obenx_com_br_app/presentation/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_options.dart';
+import 'package:obx_com_br_app/presentation/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class InvestorProfileTabs extends StatelessWidget {
   InvestorProfileTabs({

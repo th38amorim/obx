@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/main_objective.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/main_objective.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class InvestorProfileOverviewPage extends StatefulWidget {
   const InvestorProfileOverviewPage({ Key? key }) : super(key: key);

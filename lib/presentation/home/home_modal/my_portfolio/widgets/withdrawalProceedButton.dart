@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class WithdrawalProceedButton extends StatelessWidget {
   const WithdrawalProceedButton({

@@ -1,5 +1,5 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/domain/model/investor_profile/investor_profile.dart';
+import 'package:obx_com_br_app/domain/model/investor_profile/investor_profile.dart';
 
 class InvestorProfileFormState {
   InvestorProfile investorProfile;

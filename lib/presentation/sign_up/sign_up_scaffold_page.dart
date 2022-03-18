@@ -1,25 +1,25 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
-import 'package:obenx_com_br_app/domain/model/user.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/address_form_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_bank_account_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_bank_confirm_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_birthplace_confirm_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_camera_input.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_confirm_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_consultant_input_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_document_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_finances_confirm_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_finances_input.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_select_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_text_input_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/custom_birthplace_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/sections_confirmations/access_data/access_data_confirmation_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/misc/sign_up_form_screen_config.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/sections_confirmations/address/address_section_confirmation.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/sections_confirmations/finances/finances_section_confirmation.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/sections_confirmations/personal_data/personal_data_section_confirmation.dart';
+import 'package:obx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
+import 'package:obx_com_br_app/domain/model/user.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/address_form_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_bank_account_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_bank_confirm_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_birthplace_confirm_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_camera_input.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_confirm_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_consultant_input_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_document_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_finances_confirm_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_finances_input.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_select_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_text_input_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/custom_birthplace_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/sections_confirmations/access_data/access_data_confirmation_page.dart';
+import 'package:obx_com_br_app/presentation/sign_up/misc/sign_up_form_screen_config.dart';
+import 'package:obx_com_br_app/presentation/sign_up/sections_confirmations/address/address_section_confirmation.dart';
+import 'package:obx_com_br_app/presentation/sign_up/sections_confirmations/finances/finances_section_confirmation.dart';
+import 'package:obx_com_br_app/presentation/sign_up/sections_confirmations/personal_data/personal_data_section_confirmation.dart';
 
 class NumberFormController {
 

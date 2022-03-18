@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/donut.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/common/charts/donut.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class TypeOfInvestor extends StatelessWidget {
   const TypeOfInvestor({

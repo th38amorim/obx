@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/domain/core/value_validators.dart';
-import 'package:obenx_com_br_app/domain/model/i_address_repository.dart';
-import 'package:obenx_com_br_app/domain/model/user.dart';
-import 'package:obenx_com_br_app/infrastructure/sign_up/address_repository.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/misc/sign_up_form_screen_config.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/sign_up_scaffold_page.dart';
+import 'package:obx_com_br_app/domain/core/value_validators.dart';
+import 'package:obx_com_br_app/domain/model/i_address_repository.dart';
+import 'package:obx_com_br_app/domain/model/user.dart';
+import 'package:obx_com_br_app/infrastructure/sign_up/address_repository.dart';
+import 'package:obx_com_br_app/presentation/sign_up/misc/sign_up_form_screen_config.dart';
+import 'package:obx_com_br_app/presentation/sign_up/sign_up_scaffold_page.dart';
 
 class SignUpFormState {
 

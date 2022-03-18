@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/application/splash/splash_cubit.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/sign_in/sign_in_form_page.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/application/splash/splash_cubit.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/sign_in/sign_in_form_page.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class SplashPage extends StatelessWidget {
   @override

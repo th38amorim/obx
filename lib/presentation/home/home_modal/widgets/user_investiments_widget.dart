@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/application/styles/indicator_cubit.dart';
-import 'package:obenx_com_br_app/presentation/common/indicator_widget.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/widgets/months_extracts.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/widgets/type_of_investor.dart';
+import 'package:obx_com_br_app/application/styles/indicator_cubit.dart';
+import 'package:obx_com_br_app/presentation/common/indicator_widget.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/widgets/months_extracts.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/widgets/type_of_investor.dart';
 
 class UserInvestimentsWidget extends StatelessWidget {
   UserInvestimentsWidget({

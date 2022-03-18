@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/widgets/account_data_itens_widget.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/widgets/account_data_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/registration_data/widgets/account_data_itens_widget.dart';
+import 'package:obx_com_br_app/presentation/registration_data/widgets/account_data_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class ContactInformationTab extends StatelessWidget {
   const ContactInformationTab({Key? key}) : super(key: key);

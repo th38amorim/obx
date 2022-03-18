@@ -1,6 +1,6 @@
-import 'package:obenx_com_br_app/domain/core/cpf_validator.dart';
-import 'package:obenx_com_br_app/domain/core/date_validator.dart';
-import 'package:obenx_com_br_app/domain/core/email_validator.dart';
+import 'package:obx_com_br_app/domain/core/cpf_validator.dart';
+import 'package:obx_com_br_app/domain/core/date_validator.dart';
+import 'package:obx_com_br_app/domain/core/email_validator.dart';
 
 class ValueValidators {
   

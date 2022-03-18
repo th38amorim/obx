@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
-import 'package:obenx_com_br_app/presentation/home/home_overview/home_overview_page.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
+import 'package:obx_com_br_app/presentation/home/home_overview/home_overview_page.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class WithdrawalOperationCompletedPage extends StatefulWidget {
   WithdrawalOperationCompletedPage({Key? key}) : super(key: key);

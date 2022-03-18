@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/tabs/address_tab.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/tabs/bank_data_tab.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/tabs/contact_informations_tab.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/tabs/personal_data_tab.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/tabs/professional_and_financial_tab.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/registration_data/tabs/address_tab.dart';
+import 'package:obx_com_br_app/presentation/registration_data/tabs/bank_data_tab.dart';
+import 'package:obx_com_br_app/presentation/registration_data/tabs/contact_informations_tab.dart';
+import 'package:obx_com_br_app/presentation/registration_data/tabs/personal_data_tab.dart';
+import 'package:obx_com_br_app/presentation/registration_data/tabs/professional_and_financial_tab.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class RegistrationDataOverviewPage extends StatelessWidget {
   const RegistrationDataOverviewPage({Key? key}) : super(key: key);

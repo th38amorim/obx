@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawal_steps_widget.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/withdrawal_my_portfolio/withdrawal_operation_completed_page.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawal_steps_widget.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/withdrawal_my_portfolio/withdrawal_operation_completed_page.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class WithdrawalReviewPage extends StatefulWidget {
   WithdrawalReviewPage({Key? key}) : super(key: key);

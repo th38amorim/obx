@@ -1,5 +1,5 @@
 import 'package:charts_flutter/flutter.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/palettes/palette.dart';
+import 'package:obx_com_br_app/presentation/common/charts/palettes/palette.dart';
 
 class MaterialViolet extends Palette {
   static const _shade200 = Color(r: 0x53, g: 0x58, b: 0x95); //#535895

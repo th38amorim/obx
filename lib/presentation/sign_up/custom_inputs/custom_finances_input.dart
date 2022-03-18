@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:intl/intl.dart';
-import 'package:obenx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
-import 'package:obenx_com_br_app/presentation/common/obenx_app_bar.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
+import 'package:obx_com_br_app/presentation/common/obenx_app_bar.dart';
+import 'package:obx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 import 'package:extended_masked_text/extended_masked_text.dart';
 
 class CustomFinancesPage extends StatefulWidget {

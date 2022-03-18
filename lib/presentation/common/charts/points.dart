@@ -18,7 +18,7 @@
 // EXCLUDE_FROM_GALLERY_DOCS_END
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/palettes/primary_color_pallete.dart';
+import 'package:obx_com_br_app/presentation/common/charts/palettes/primary_color_pallete.dart';
 
 class SimpleTimeSeriesChart extends StatelessWidget {
   final List<charts.Series<dynamic, DateTime>> seriesList;

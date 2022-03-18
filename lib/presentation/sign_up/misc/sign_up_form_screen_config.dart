@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:obenx_com_br_app/domain/core/value_validators.dart';
+import 'package:obx_com_br_app/domain/core/value_validators.dart';
 
 enum SignUpFormScreenType {
 

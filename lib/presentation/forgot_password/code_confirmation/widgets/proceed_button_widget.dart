@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/forgot_password/new_password/new_password_page.dart';
-import 'package:obenx_com_br_app/presentation/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/forgot_password/new_password/new_password_page.dart';
+import 'package:obx_com_br_app/presentation/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class ProceedButtonWidget extends StatelessWidget {
   const ProceedButtonWidget({

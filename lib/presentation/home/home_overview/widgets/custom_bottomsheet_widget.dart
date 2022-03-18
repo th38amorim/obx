@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/home/home_overview/home_overview_page.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_overview_page.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/registration_data_overview_page.dart';
-import 'package:obenx_com_br_app/presentation/sign_in/sign_in_form_page.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/home/home_overview/home_overview_page.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_overview_page.dart';
+import 'package:obx_com_br_app/presentation/registration_data/registration_data_overview_page.dart';
+import 'package:obx_com_br_app/presentation/sign_in/sign_in_form_page.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class MenuOptionsWidget extends StatefulWidget {
   const MenuOptionsWidget({

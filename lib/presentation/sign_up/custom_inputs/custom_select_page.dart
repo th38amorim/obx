@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
-import 'package:obenx_com_br_app/presentation/common/obenx_app_bar.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/widgets/input_select_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
+import 'package:obx_com_br_app/presentation/common/obenx_app_bar.dart';
+import 'package:obx_com_br_app/presentation/sign_up/widgets/input_select_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class CustomSelectPage extends StatefulWidget {
   const CustomSelectPage(

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/home/home_overview/home_overview_page.dart';
-import 'package:obenx_com_br_app/presentation/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/home/home_overview/home_overview_page.dart';
+import 'package:obx_com_br_app/presentation/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class LoginButtonWidget extends StatelessWidget {
   const LoginButtonWidget({
@@ -11,17 +11,23 @@ class LoginButtonWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Padding(
-      padding: const EdgeInsets.only(top: 75),
+      padding: const EdgeInsets.only(top: 50),
       child: Container(
         decoration: BoxDecoration(
           gradient: TextStyles.gradientColor,
           borderRadius: BorderRadius.circular(25),
         ),
         child: ElevatedButton(
-            // onPressed: () => pushToPage(context, InvestorProfileOverviewPage()),
-            onPressed: () => pushToPage(context, HomeOverviewPage()),
-            style: TextStyles.buttonStyle,
-            child: Text('Acessar', style: TextStyle(color: Colors.black))),
+          // onPressed: () => pushToPage(context, InvestorProfileOverviewPage()),
+          onPressed: () => pushToPage(context, HomeOverviewPage()),
+          style: TextStyles.buttonStyle,
+          child: const Text(
+            'Acessar', style: 
+            TextStyle(
+              color: Colors.black,
+            ),
+          ),
+        ),
       ),
     );
   }

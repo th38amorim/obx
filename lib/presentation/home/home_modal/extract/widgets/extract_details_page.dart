@@ -1,10 +1,10 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/forgot_password/new_password/new_password_page.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/extract/widgets/aport_bank_data_page.dart';
-import 'package:obenx_com_br_app/presentation/home/home_overview/widgets/custom_bottomsheet_widget.dart';
-import 'package:obenx_com_br_app/presentation/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/forgot_password/new_password/new_password_page.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/extract/widgets/aport_bank_data_page.dart';
+import 'package:obx_com_br_app/presentation/home/home_overview/widgets/custom_bottomsheet_widget.dart';
+import 'package:obx_com_br_app/presentation/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class ExtractDetailsPage extends StatelessWidget {
   ExtractDetailsPage({Key? key}) : super(key: key);

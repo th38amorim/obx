@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawal_steps_widget.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawn_options_widget.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/withdrawal_my_portfolio/withdrawal_value_page.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawal_steps_widget.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawn_options_widget.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/withdrawal_my_portfolio/withdrawal_value_page.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class WithdrawalMyPortfolioPage extends StatefulWidget {
   WithdrawalMyPortfolioPage({Key? key}) : super(key: key);

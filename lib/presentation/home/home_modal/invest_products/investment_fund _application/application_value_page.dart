@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/investment_fund%20_application/application_terms_page.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/widgets/application_steps_widget.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/invest_products/investment_fund%20_application/application_terms_page.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/invest_products/widgets/application_steps_widget.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/withdrawalProceedButton.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class ApplicationValuePage extends StatefulWidget {
   ApplicationValuePage({Key? key}) : super(key: key);

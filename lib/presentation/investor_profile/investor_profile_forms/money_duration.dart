@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/invested_volume.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_options.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_tabs.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/invested_volume.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_options.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_tabs.dart';
 
 class MoneyDuration extends StatefulWidget {
   const MoneyDuration({ Key? key }) : super(key: key);

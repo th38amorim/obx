@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/rows_with_fields_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/rows_with_fields_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class PortfolioCardWidget extends StatelessWidget {
   const PortfolioCardWidget({

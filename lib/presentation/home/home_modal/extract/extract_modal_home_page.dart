@@ -1,9 +1,9 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/extract/widgets/extract_details_page.dart';
-import 'package:obenx_com_br_app/presentation/home/home_overview/widgets/custom_bottomsheet_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/extract/widgets/extract_details_page.dart';
+import 'package:obx_com_br_app/presentation/home/home_overview/widgets/custom_bottomsheet_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class ExtractModalHomePage extends StatelessWidget {
   ExtractModalHomePage({Key? key}) : super(key: key);

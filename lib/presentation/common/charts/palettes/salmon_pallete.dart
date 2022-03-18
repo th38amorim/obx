@@ -1,5 +1,5 @@
 import 'package:charts_flutter/flutter.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/palettes/palette.dart';
+import 'package:obx_com_br_app/presentation/common/charts/palettes/palette.dart';
 
 class MaterialSalmon extends Palette {
   static const _shade200 = Color(r: 0xF8, g: 0x7A, b: 0x67); //#F87A67

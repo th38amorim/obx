@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/widgets/order_by_widget.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/widgets/risks_filters_widget.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/widgets/sliders_filters_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/invest_products/widgets/order_by_widget.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/invest_products/widgets/risks_filters_widget.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/invest_products/widgets/sliders_filters_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class InvestFiltersPage extends StatefulWidget {
   const InvestFiltersPage({ Key? key }) : super(key: key);

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/registration_data/widgets/account_data_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/registration_data/widgets/account_data_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class ProfessionalAndFinancialTab extends StatelessWidget {
   const ProfessionalAndFinancialTab({Key? key}) : super(key: key);

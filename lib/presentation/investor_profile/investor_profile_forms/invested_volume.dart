@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/investment_understading.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_options.dart';
-import 'package:obenx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_tabs.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/investment_understading.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_options.dart';
+import 'package:obx_com_br_app/presentation/investor_profile/investor_profile_forms/widgets/investor_profile_tabs.dart';
 
 class InvestedVolume extends StatefulWidget {
   const InvestedVolume({ Key? key }) : super(key: key);

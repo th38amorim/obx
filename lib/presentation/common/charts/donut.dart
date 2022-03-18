@@ -1,7 +1,7 @@
 import 'package:charts_flutter/flutter.dart' as charts;
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/palettes/salmon_pallete.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/palettes/violet_pallete.dart';
+import 'package:obx_com_br_app/presentation/common/charts/palettes/salmon_pallete.dart';
+import 'package:obx_com_br_app/presentation/common/charts/palettes/violet_pallete.dart';
 
 class DonutPieChart extends StatelessWidget {
   final List<charts.Series<LinearSales, int>> seriesList;

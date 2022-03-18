@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class PersonalDataWidget extends StatelessWidget {
   const PersonalDataWidget({

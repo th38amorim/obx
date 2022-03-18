@@ -2,8 +2,8 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:http/http.dart' as http;
-import 'package:obenx_com_br_app/domain/model/i_address_repository.dart';
-import 'package:obenx_com_br_app/domain/model/user.dart';
+import 'package:obx_com_br_app/domain/model/i_address_repository.dart';
+import 'package:obx_com_br_app/domain/model/user.dart';
 
 class AddressRepository implements IAddressRepository {
 

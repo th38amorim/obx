@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/extract/extract_modal_home_page.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/invest_products/invest_products_modal_home_page.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/my_portfolio_modal_home_page.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/extract/extract_modal_home_page.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/invest_products/invest_products_modal_home_page.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/my_portfolio_modal_home_page.dart';
 
 class ModalTabsWidget extends StatelessWidget {
   const ModalTabsWidget({

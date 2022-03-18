@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
-import 'package:obenx_com_br_app/presentation/common/obenx_app_bar.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/cep_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/city_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/complement_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/country_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/district_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/number_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/state_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/street_field_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
+import 'package:obx_com_br_app/presentation/common/obenx_app_bar.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/cep_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/city_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/complement_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/country_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/district_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/number_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/state_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/custom_inputs/address_form/widgets/street_field_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class AddressFormPage extends StatelessWidget {
   AddressFormPage({Key? key, required this.index, required this.pageController}) : super(key: key);

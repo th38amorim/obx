@@ -1,12 +1,12 @@
 import 'package:easy_mask/easy_mask.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
-import 'package:obenx_com_br_app/presentation/common/obenx_app_bar.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/misc/sign_up_form_screen_config.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/widgets/sign_up_proceed_button_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
+import 'package:obx_com_br_app/presentation/common/obenx_app_bar.dart';
+import 'package:obx_com_br_app/presentation/sign_up/misc/sign_up_form_screen_config.dart';
+import 'package:obx_com_br_app/presentation/sign_up/widgets/section_name_widget.dart';
+import 'package:obx_com_br_app/presentation/sign_up/widgets/sign_up_proceed_button_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class CustomDocumentPage extends StatefulWidget {
   const CustomDocumentPage(

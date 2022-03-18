@@ -29,9 +29,11 @@ class TextStyles {
     fixedSize: MaterialStateProperty.all<Size>(Size(190, 45)),
     backgroundColor: MaterialStateProperty.all<Color>(backgroundDarkColor),
     shape: MaterialStateProperty.all<OutlinedBorder>(
-        RoundedRectangleBorder(
-          side: BorderSide(color: Colors.white),
-          borderRadius: BorderRadius.all(Radius.circular(25)))),
+      RoundedRectangleBorder(
+        side: BorderSide(color: Colors.white),
+        borderRadius: BorderRadius.all(Radius.circular(25)),
+      ),
+    ),
   );
 
   static TextStyle personName = TextStyle(

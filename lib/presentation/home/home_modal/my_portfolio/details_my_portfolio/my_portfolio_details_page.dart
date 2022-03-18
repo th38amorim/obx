@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/points.dart';
-import 'package:obenx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/portfolio_details_widget.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/common/charts/points.dart';
+import 'package:obx_com_br_app/presentation/home/home_modal/my_portfolio/widgets/portfolio_details_widget.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class MyPortfolioDetailsPage extends StatelessWidget {
   MyPortfolioDetailsPage({Key? key, required this.applyPage, required this.buttonLabel}) : super(key: key);

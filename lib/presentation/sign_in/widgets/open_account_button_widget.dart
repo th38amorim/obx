@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/navigator_utils.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/sign_up_scaffold_page.dart';
+import 'package:obx_com_br_app/navigator_utils.dart';
+import 'package:obx_com_br_app/presentation/sign_up/sign_up_scaffold_page.dart';
 
 class OpenAccountButtonWidget extends StatelessWidget {
   const OpenAccountButtonWidget({

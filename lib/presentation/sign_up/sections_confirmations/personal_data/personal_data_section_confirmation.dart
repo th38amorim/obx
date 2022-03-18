@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:obenx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
-import 'package:obenx_com_br_app/presentation/sign_up/sections_confirmations/personal_data/personal_data_section_status.dart';
-import 'package:obenx_com_br_app/presentation/themes.dart';
+import 'package:obx_com_br_app/application/sign_up/sign_up_form_cubit.dart';
+import 'package:obx_com_br_app/presentation/sign_up/sections_confirmations/personal_data/personal_data_section_status.dart';
+import 'package:obx_com_br_app/presentation/themes.dart';
 
 class PersonalDataSectionConfirm extends StatelessWidget {
   const PersonalDataSectionConfirm({ Key? key }) : super(key: key);

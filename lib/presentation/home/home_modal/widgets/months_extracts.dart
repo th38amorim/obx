@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:obenx_com_br_app/presentation/common/charts/points.dart';
+import 'package:obx_com_br_app/presentation/common/charts/points.dart';
 
 class MonthsExtracts extends StatelessWidget {
   const MonthsExtracts({
